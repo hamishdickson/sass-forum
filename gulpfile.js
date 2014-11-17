@@ -4,8 +4,6 @@
 var gulp = require('gulp');
 var sass = require('gulp-sass');
 var csso = require('gulp-csso');
-var uglify = require('gulp-uglify');
-var concat = require('gulp-concat');
 var plumber = require('gulp-plumber');
 
 gulp.task('sass', function() {
