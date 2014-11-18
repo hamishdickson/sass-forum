@@ -1,7 +1,11 @@
-html,
-body,
-ul,
-ol {
+html, body, ul, ol {
   margin: 0;
   padding: 0;
+}
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  -ms-border-radius: $radius;
+  border-radius: $radius;
 }
